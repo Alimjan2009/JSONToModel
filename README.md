@@ -56,9 +56,11 @@ Replace strJSON with your json string .  After running project, you can see .h a
         }
     ]
 }
+```
 
 2. After Running the project, you cat get 
 .h file is 
+
 ```objc
 @interface WeatherModelWeather : NSObject
 @property (copy, nonatomic) NSString *names;
@@ -75,6 +77,7 @@ Replace strJSON with your json string .  After running project, you can see .h a
 ```
 
 .m file is 
+
 ```objc
 #import "WeatherModel.h"
 
